@@ -10,13 +10,6 @@ ul {
   list-style: none;
 }
 
-header {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 .menu-icons {
   display: none;
   align-items: center;
@@ -37,20 +30,19 @@ header {
 }
 
 nav {
+  height: 60px;
   display: flex;
   align-items: center;
-  height: 60px;
-  justify-content: center;
-  width: 100%;
-  max-width: 1400px;
   margin: auto;
   padding: 0px 30px;
 }
 
 .nav-list {
-  height: 60px;
+  width: 100%;
   display: flex;
   align-items: center;
+  margin: 0 auto;
+  /* justify-content: center; */
 }
 
 .nav-list li {
