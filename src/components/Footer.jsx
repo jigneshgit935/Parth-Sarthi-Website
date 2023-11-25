@@ -139,7 +139,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="md:mx-12 mx-5 py-3">
-          <div className="flex justify-between xl:flex-row flex-col text-center md:text-start">
+          <div className="flex justify-between xl:flex-row flex-col text-center xl:text-start">
             <ul className="text-sm text-white/40 flex flex-row gap-x-4 mx-auto xl:mx-0 ">
               <li>Disclaimer</li>
               <li>Emi Calculator</li>
