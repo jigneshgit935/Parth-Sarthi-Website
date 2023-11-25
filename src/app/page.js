@@ -1,13 +1,17 @@
-import ParthVideo from '@/../public/video/Parth.mp4';
+import ParthVideo from '@/../public/Parth.mp4';
 
 export default function Home() {
   return (
     <>
-      <section className="border mt-[60px] h-[calc(100vh-60px)] bg-red-100">
+      <section className="mt-[60px] h-[calc(100vh-60px)] ">
         <div className="">
-          <video controls autoPlay muted width="100%" height="100%">
-            <source src={ParthVideo} type="video/mp4" />
-          </video>
+          <video
+            src={require('./../../public/Parth.mp4')}
+            width={'100%'}
+            height={'100%'}
+            autoPlay
+            loop
+          />
         </div>
 
         <div className="w-full overflow-hidden bg-[#C4956A] py-3 text-white">
