@@ -15,11 +15,9 @@ const Submenu = () => {
   return (
     <header className="">
       <div class=" container flex items-center">
-        <div className="md:w-[240px] w-[400px] border text-3xl px-2">
-          Parth Sarthi
-        </div>
-        <nav className={isActive ? 'active border' : ''}>
-          <div onClick={handleMenuClick} class="menu-icons border">
+        <div className="md:w-[240px] w-[400px] text-3xl px-2">Parth Sarthi</div>
+        <nav className={isActive ? 'active' : ''}>
+          <div onClick={handleMenuClick} class="menu-icons">
             <RxHamburgerMenu className="fa-bars text-black " />
             <GrClose className="fa-times text-black" />
           </div>
