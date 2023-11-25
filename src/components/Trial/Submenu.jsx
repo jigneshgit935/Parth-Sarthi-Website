@@ -1,19 +1,44 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './submenu.css';
 import { GrClose } from 'react-icons/gr';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { FaChevronDown } from 'react-icons/fa';
 
 const Submenu = () => {
+  const [show, setShow] = useState('translate-y-0');
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  const controlNavbar = () => {
+    if (window.scrollY > 200) {
+      if (window.scrollY > lastScrollY) {
+        setShow('-translate-y-[80px]');
+      } else {
+        setShow('shadow-sm');
+      }
+    } else {
+      setShow('translate-y-0');
+    }
+    setLastScrollY(window.scrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', controlNavbar);
+    return () => {
+      window.removeEventListener('scroll', controlNavbar);
+    };
+  }, [lastScrollY]);
+
   const [isActive, setIsActive] = useState(false);
 
   const handleMenuClick = () => {
     setIsActive(!isActive);
   };
   return (
-    <header className="">
+    <header
+      className={`bg-white border z-20 sticky top-0 transition-transform duration-300 ${show}`}
+    >
       <div class="">
         <nav className={isActive ? 'active' : ''}>
           <div className="logo-flex">
