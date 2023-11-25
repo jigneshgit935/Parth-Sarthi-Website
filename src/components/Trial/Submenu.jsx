@@ -41,13 +41,11 @@ const Submenu = () => {
     >
       <div class="">
         <nav className={isActive ? 'active' : ''}>
-          <div className="logo-flex">
-            <h2>Parth Sarthi</h2>
-          </div>
           <div onClick={handleMenuClick} class="menu-icons">
             <RxHamburgerMenu className="fa-bars text-black " />
             <GrClose className="fa-times text-black" />
           </div>
+
           <ul class="nav-list">
             <li>
               <a href="#" className="">

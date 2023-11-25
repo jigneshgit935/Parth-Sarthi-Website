@@ -40,20 +40,19 @@ nav {
   display: flex;
   align-items: center;
   height: 60px;
-  justify-content: start;
+  justify-content: space-between;
   width: 100%;
   max-width: 1400px;
-  margin: 0 auto;
+  margin: auto;
   padding: 0px 30px;
 }
-.logo-flex {
-  flex: 1;
-}
+
 .nav-list {
+  border: 1px solid red;
+
   height: 60px;
   display: flex;
   align-items: center;
-  flex: 2;
 }
 
 .nav-list li {
@@ -168,9 +167,7 @@ li.move-right {
     margin-right: 0.4rem;
     padding-right: 1rem;
   }
-  .logo-flex {
-    flex: none;
-  }
+
   .nav-list {
     flex: none;
   }
