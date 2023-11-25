@@ -40,7 +40,7 @@ nav {
   display: flex;
   align-items: center;
   height: 60px;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   max-width: 1400px;
   margin: auto;
@@ -48,8 +48,6 @@ nav {
 }
 
 .nav-list {
-  border: 1px solid red;
-
   height: 60px;
   display: flex;
   align-items: center;
