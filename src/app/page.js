@@ -5,13 +5,9 @@ export default function Home() {
     <>
       <section className="mt-[60px] h-[calc(100vh-60px)] ">
         <div className="">
-          <video
-            src={require('./../../public/Parth.mp4')}
-            width={'100%'}
-            height={'100%'}
-            autoPlay
-            loop
-          />
+          <video autoPlay muted loop width={'100%'} height={'100%'}>
+            <source src="/Parth.mp4" type="video/mp4" />
+          </video>
         </div>
 
         <div className="w-full overflow-hidden bg-[#C4956A] py-3 text-white">
