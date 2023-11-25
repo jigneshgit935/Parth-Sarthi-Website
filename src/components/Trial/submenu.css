@@ -99,6 +99,7 @@ nav {
   -o-transition: all 250ms ease;
   opacity: 0;
   visibility: hidden;
+  background: #fff;
 }
 
 .sub-menu::before {
@@ -152,6 +153,7 @@ li.move-right {
     display: none;
     overflow-y: scroll;
     width: 100%;
+    background: #fff;
   }
 
   .nav-list > li {
