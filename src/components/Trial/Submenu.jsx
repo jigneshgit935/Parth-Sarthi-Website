@@ -14,9 +14,11 @@ const Submenu = () => {
   };
   return (
     <header className="">
-      <div class=" container flex items-center">
-        <div className="md:w-[240px] w-[400px] text-3xl px-2">Parth Sarthi</div>
+      <div class="">
         <nav className={isActive ? 'active' : ''}>
+          <div className="logo-flex">
+            <h2>Parth Sarthi</h2>
+          </div>
           <div onClick={handleMenuClick} class="menu-icons">
             <RxHamburgerMenu className="fa-bars text-black " />
             <GrClose className="fa-times text-black" />
@@ -59,20 +61,6 @@ const Submenu = () => {
                     </li>
                     <li>
                       <a href="#">From the desk</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#">CSR & Sustainbility</a>
-                  <ul class="sub-menu">
-                    <li>
-                      <a href="#">Raheja Wildlife</a>
-                    </li>
-                    <li>
-                      <a href="#">Raheja CSR</a>
-                    </li>
-                    <li>
-                      <a href="#">Raheja music</a>
                     </li>
                   </ul>
                 </li>
@@ -121,29 +109,7 @@ const Submenu = () => {
             <li>
               <a href="#">Buy Online</a>
             </li>
-            <li>
-              <a href="#">
-                Online Registration
-                <i class="fas fa-caret-down"></i>
-              </a>
-              <ul class="sub-menu">
-                <li>
-                  <a href="#">Real Estate Agent</a>
-                </li>
-                <li>
-                  <a href="#">Contractor & Supplier Registration</a>
-                </li>
-                <li>
-                  <a href="#">Ambassador Club</a>
-                </li>
-                <li>
-                  <a href="#">Worker Enrollment</a>
-                </li>
-                <li>
-                  <a href="#">Real Estate Agent/ Customer Login</a>
-                </li>
-              </ul>
-            </li>
+
             <li>
               <a href="#">
                 Career

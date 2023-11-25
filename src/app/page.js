@@ -1,5 +1,3 @@
-import ParthVideo from '@/../public/Parth.mp4';
-
 export default function Home() {
   return (
     <>

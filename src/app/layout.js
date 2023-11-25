@@ -1,6 +1,7 @@
 import { Inter } from 'next/font/google';
 import './globals.css';
 import Submenu from '@/components/Trial/Submenu';
+import Footer from '@/components/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -13,10 +14,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main>
+        <main className=" w-full max-w-[1400px] mx-auto">
           <Submenu />
-
           {children}
+          <Footer />
         </main>
       </body>
     </html>
