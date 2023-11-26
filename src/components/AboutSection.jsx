@@ -8,12 +8,12 @@ const AboutSection = () => {
     <div className="py-10">
       <div className="flex flex-col justify-center items-center text-start md:text-center px-5">
         <h1 className="text-3xl md:text-5xl font-bold text-[#C4956A]">
-          Legacy Of Raheja
+          Legacy Of Parth Sarthi
         </h1>
         <p className="mt-4 md:mt-10 w-[100%] max-w-[1000px] leading-7 px-0 md:px-10 xl:px-0">
-          Raheja Developers is one of the largest Real Estate companies in India
-          established in the year 1990 by Mr. Navin M. Raheja. The company has
-          always maintained path breaking status and has pioneered various
+          Parth Sarthi Developers is one of the largest Real Estate companies in
+          India established in the year 1990 by Mr. Navin M. Raheja. The company
+          has always maintained path breaking status and has pioneered various
           firsts in India. From trend setting luxury housing to providing homes
           for the poorest section of Indian society, from India’s tallest
           skyscrapers to 165 acres of plotted township, from changing the way
