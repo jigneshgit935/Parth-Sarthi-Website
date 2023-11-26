@@ -21,7 +21,7 @@ const AboutSection = () => {
         </p>
       </div>
 
-      <div className="flex flex-row justify-center items-center gap-5 py-4 mt-10">
+      <div className="flex flex-row justify-center items-center gap-5 py-4 mt-4 md:mt-10">
         <Link href={'/about'}>
           <button className="px-6 py-3 border border-black/5">
             Read More <br />
