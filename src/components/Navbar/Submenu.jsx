@@ -46,7 +46,7 @@ const Submenu = () => {
           <GrClose className="fa-times text-black" />
         </div>
 
-        <Link href={'/'} className="w-[200px]">
+        <Link href={'/'} className="border">
           <h2>Parth Sarthi</h2>
         </Link>
         <ul class="nav-list">

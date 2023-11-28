@@ -33,16 +33,13 @@ nav {
   height: 60px;
   display: flex;
   align-items: center;
-  margin: auto;
   padding: 0px 30px;
 }
 
 .nav-list {
-  width: 100%;
   display: flex;
   align-items: center;
-  margin: 0 auto;
-  /* justify-content: center; */
+  margin-left: 6rem;
 }
 
 .nav-list li {
@@ -142,6 +139,7 @@ li.move-right {
     overflow-y: scroll;
     width: 100%;
     background: #fff;
+    margin-left: 0px;
   }
 
   .nav-list > li {

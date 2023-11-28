@@ -7,7 +7,7 @@ const AboutSection = () => {
   return (
     <div className="py-10">
       <div className="flex flex-col justify-center items-center text-start md:text-center px-5">
-        <h1 className="text-3xl md:text-5xl font-bold text-[#C4956A]">
+        <h1 className="text-2xl md:text-5xl font-bold text-[#C4956A]">
           Legacy Of Parth Sarthi
         </h1>
         <p className="mt-4 md:mt-10 w-[100%] max-w-[1000px] leading-7 px-0 md:px-10 xl:px-0">
