@@ -75,9 +75,9 @@ export default function About() {
         </div>
 
         <div className="px-5 md:px-[70px] md:py-[80px] py-10 bg-gray-200">
-          <div className="border grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0">
-            <div className="flex flex-col gap-5 ">
-              <p className="text-[15px] text-justify">
+          <div className="border  flex justify-between flex-col lg:flex-row  gap-6 lg:gap-2">
+            <div className="flex flex-col  gap-5 w-[100%] max-w-[800px]">
+              <p className="text-[15px] text-justify ">
                 Raheja Developers is a pioneer in bringing in new innovations
                 and construction practices to all its projects. It has always
                 been the company’s endevour to deliver best quality products to
@@ -97,13 +97,17 @@ export default function About() {
                 envisage to deliver another 8,400 in next 2 to 3 years.
               </p>
             </div>
-            <div className="flex justify-end flex-1">
-              <div className="border-2  border-red-500 p-2 rounded-2xl">
+            <div className="flex flex-col w-[100%] lg:w-[400px]">
+              <div className="border-2 flex mx-auto  border-red-400 w-[360px] h-[250px]  rounded-2xl">
                 <Image
                   src={CompanyOverview}
                   alt=""
-                  className="border w-[400px] h-[300px] rounded-2xl"
+                  className="m-auto w-[350px] h-[240px] rounded-2xl"
                 />
+              </div>
+              <div className="lg:px-6 text-center  my-2">
+                <h4 className="font-semibold text-[15px] ">Download</h4>
+                <h4 className="text-[15px]  leading-4">Corporate Brochure</h4>
               </div>
             </div>
           </div>
