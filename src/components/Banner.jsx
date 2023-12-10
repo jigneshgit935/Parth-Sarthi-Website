@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
   return (
-    <section className=" w-full">
+    <section className="w-full">
       <video autoPlay muted loop width={'100%'} className="">
         <source src="/Parth.mp4" type="video/mp4" />
       </video>
