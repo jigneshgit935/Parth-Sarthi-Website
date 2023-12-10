@@ -74,9 +74,9 @@ export default function About() {
           </div>
         </div>
 
-        <div className="px-5 md:px-[70px] md:py-[80px] py-10">
+        <div className="px-5 md:px-[70px] md:py-[80px] py-10 bg-gray-200">
           <div className="border grid grid-cols-1 lg:grid-cols-2">
-            <div className="border ">
+            <div className="flex flex-col gap-5 ">
               <p className="text-[15px] text-justify">
                 Raheja Developers is a pioneer in bringing in new innovations
                 and construction practices to all its projects. It has always
