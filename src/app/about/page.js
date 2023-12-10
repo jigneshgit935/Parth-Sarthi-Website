@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import CompanyOverview from '../../../public/images/company-overview.jpg';
 import Link from 'next/link';
+import Counter from '@/components/Counter';
 
 export default function About() {
   return (
@@ -18,7 +19,7 @@ export default function About() {
             <li>
               <Link
                 href="#"
-                className="text-md border-b-0 hover:border-b-2 transition-all   border-b-[#C4956A]"
+                className="text-sm md:text-md border-b-0 hover:border-b-2 transition-all   border-b-[#C4956A]"
               >
                 COMPANY OVERVIEW
               </Link>
@@ -26,7 +27,7 @@ export default function About() {
             <li>
               <Link
                 href="#"
-                className="text-md border-b-0 hover:border-b-2 transition-all   border-b-[#C4956A]"
+                className="text-sm md:text-md border-b-0 hover:border-b-2 transition-all   border-b-[#C4956A]"
               >
                 VISION
               </Link>
@@ -34,7 +35,7 @@ export default function About() {
             <li>
               <Link
                 href="#"
-                className="text-md border-b-0 hover:border-b-2 transition-all   border-b-[#C4956A]"
+                className="text-sm md:text-md border-b-0 hover:border-b-2 transition-all   border-b-[#C4956A]"
               >
                 ABOUT LOGO
               </Link>
@@ -42,7 +43,7 @@ export default function About() {
             <li>
               <Link
                 href="#"
-                className="text-md border-b-0 hover:border-b-2 transition-all   border-b-[#C4956A]"
+                className="text-sm md:text-md border-b-0 hover:border-b-2 transition-all   border-b-[#C4956A]"
               >
                 HONORS & AWARDS
               </Link>
@@ -74,7 +75,9 @@ export default function About() {
           </div>
         </div>
 
-        <div className="px-5 md:px-[70px] md:py-[80px] py-10 bg-gray-200">
+        <Counter />
+
+        <div className="px-5 md:px-[70px] md:py-[80px] py-10 bg-gray-200 border">
           <div className="border  flex justify-between flex-col lg:flex-row  gap-6 lg:gap-2">
             <div className="flex flex-col  gap-5 w-[100%] max-w-[800px]">
               <p className="text-[15px] text-justify ">
