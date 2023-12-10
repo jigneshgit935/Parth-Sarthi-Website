@@ -75,7 +75,7 @@ export default function About() {
         </div>
 
         <div className="px-5 md:px-[70px] md:py-[80px] py-10 bg-gray-200">
-          <div className="border grid grid-cols-1 lg:grid-cols-2">
+          <div className="border grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0">
             <div className="flex flex-col gap-5 ">
               <p className="text-[15px] text-justify">
                 Raheja Developers is a pioneer in bringing in new innovations
