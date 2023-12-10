@@ -51,26 +51,26 @@ const Submenu = () => {
         </Link>
         <ul class="nav-list">
           <li>
-            <a href="#" className="">
+            <Link href="#" className="">
               Our Story
-            </a>
+            </Link>
             <ul class="sub-menu">
               <li>
-                <a href="#" className="">
+                <Link href="#" className="">
                   About Us
-                </a>
+                </Link>
                 <ul class="sub-menu">
                   <li>
-                    <a href="#">Profile</a>
+                    <Link href="company-overview">Profile</Link>
                   </li>
                   <li>
-                    <a href="#">Logo</a>
+                    <Link href="company-logo">Logo</Link>
                   </li>
                   <li>
-                    <a href="#">Vision</a>
+                    <Link href="company-vision">Vision</Link>
                   </li>
                   <li>
-                    <a href="#">Awards</a>
+                    <Link href="company-awards">Awards</Link>
                   </li>
                 </ul>
               </li>
@@ -80,7 +80,9 @@ const Submenu = () => {
                 </a>
                 <ul class="sub-menu">
                   <li>
-                    <a href="#">Ar Nayan Raheja</a>
+                    <Link href="vikram-singh-parth-sarthi">
+                      Vikram Singh Parth
+                    </Link>
                   </li>
                   <li>
                     <a href="#">Navin M Raheja</a>

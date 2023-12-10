@@ -1,55 +1,15 @@
 import Image from 'next/image';
 import CompanyOverview from '../../../public/images/company-overview.jpg';
-import Link from 'next/link';
 import Counter from '@/components/Counter';
+import OverView from '@/components/OverView';
 
 export default function About() {
+  const image = CompanyOverview;
+
   return (
     <>
       <div className="">
-        <div>
-          <Image
-            src={CompanyOverview}
-            alt="company-overview"
-            className="w-full h-[100%] lg:h-[500px] object-cover"
-          />
-        </div>
-        <div className="bg-white py-5">
-          <ul className="flex flex-col md:flex-row items-center gap-6 justify-center">
-            <li>
-              <Link
-                href="#"
-                className="text-sm md:text-md border-b-0 hover:border-b-2 transition-all   border-b-[#C4956A]"
-              >
-                COMPANY OVERVIEW
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="#"
-                className="text-sm md:text-md border-b-0 hover:border-b-2 transition-all   border-b-[#C4956A]"
-              >
-                VISION
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="#"
-                className="text-sm md:text-md border-b-0 hover:border-b-2 transition-all   border-b-[#C4956A]"
-              >
-                ABOUT LOGO
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="#"
-                className="text-sm md:text-md border-b-0 hover:border-b-2 transition-all   border-b-[#C4956A]"
-              >
-                HONORS & AWARDS
-              </Link>
-            </li>
-          </ul>
-        </div>
+        <OverView image={image} />
         <div className="bg-company-overview flex items-center px-5 md:px-[70px] md:py-[80px] py-10">
           <div className="w-[100%] max-w-[600px] flex flex-col gap-4">
             <h3 className="border-b-4 border-[#C4956A]">Profile</h3>
