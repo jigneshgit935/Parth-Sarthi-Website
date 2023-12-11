@@ -10,7 +10,7 @@ const Management = () => {
         <Image
           src={ManagementImage}
           alt="company-overview"
-          className="w-full h-[100%] lg:h-[500px] object-cover"
+          className="w-full h-full lg:h-[500px] object-cover"
         />
       </div>
       <div className="bg-white py-5">

@@ -41,7 +41,7 @@ const Submenu = () => {
       className={`bg-white w-full  border z-20 sticky top-0  transition-transform duration-300 ${show}`}
     >
       <nav className={isActive ? 'active' : ''}>
-        <div onClick={handleMenuClick} class="menu-icons">
+        <div onClick={handleMenuClick} className="menu-icons">
           <RxHamburgerMenu className="fa-bars text-black " />
           <GrClose className="fa-times text-black" />
         </div>
@@ -49,28 +49,36 @@ const Submenu = () => {
         <Link href={'/'} className="border">
           <h2>Parth Sarthi</h2>
         </Link>
-        <ul class="nav-list">
+        <ul className="nav-list">
           <li>
             <Link href="#" className="">
               Our Story
             </Link>
-            <ul class="sub-menu">
+            <ul className="sub-menu">
               <li>
                 <Link href="#" className="">
                   About Us
                 </Link>
-                <ul class="sub-menu">
+                <ul className="sub-menu">
                   <li>
-                    <Link href="company-overview">Profile</Link>
+                    <Link onClick={handleMenuClick} href="company-overview">
+                      Profile
+                    </Link>
                   </li>
                   <li>
-                    <Link href="company-logo">Logo</Link>
+                    <Link onClick={handleMenuClick} href="company-logo">
+                      Logo
+                    </Link>
                   </li>
                   <li>
-                    <Link href="company-vision">Vision</Link>
+                    <Link onClick={handleMenuClick} href="company-vision">
+                      Vision
+                    </Link>
                   </li>
                   <li>
-                    <Link href="company-awards">Awards</Link>
+                    <Link onClick={handleMenuClick} href="company-awards">
+                      Awards
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -78,9 +86,12 @@ const Submenu = () => {
                 <a href="#" className="">
                   Management And Leadership
                 </a>
-                <ul class="sub-menu">
+                <ul className="sub-menu">
                   <li>
-                    <Link href="vikram-singh-parth-sarthi">
+                    <Link
+                      onClick={handleMenuClick}
+                      href="vikram-choudhary-parth-sarthi"
+                    >
                       Vikram Singh Parth
                     </Link>
                   </li>
@@ -96,9 +107,9 @@ const Submenu = () => {
           </li>
           <li>
             <a href="#">
-              Our Projects <i class="fas fa-caret-down"></i>
+              Our Projects <i className="fas fa-caret-down"></i>
             </a>
-            <ul class="sub-menu">
+            <ul className="sub-menu">
               <li>
                 <a href="#">New Launch</a>
               </li>
@@ -141,9 +152,9 @@ const Submenu = () => {
           <li>
             <a href="#">
               Career
-              <i class="fas fa-caret-down"></i>
+              <i className="fas fa-caret-down"></i>
             </a>
-            <ul class="sub-menu">
+            <ul className="sub-menu">
               <li>
                 <a href="#">Human Resources</a>
               </li>
@@ -159,7 +170,7 @@ const Submenu = () => {
             </ul>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <Link href="contact">Contact</Link>
           </li>
         </ul>
       </nav>

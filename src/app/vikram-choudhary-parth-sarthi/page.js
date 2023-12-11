@@ -69,10 +69,10 @@ const page = () => {
 
           <p className="text-[15px] text-justify">
             His hard work and dedication has been recognized by several reputed
-            platforms and he has been the recipient of various awards like "40
-            under 40 promising business leaders in India", “Young Achiever’s
-            Award”, “Top 10 Most Promising Industrialists”, “Architect of the
-            Year”, “Young Entrepreneur Award” etc.
+            platforms and he has been the recipient of various awards like
+            &quot;40 under 40 promising business leaders in India&quot;, “Young
+            Achiever’s Award”, “Top 10 Most Promising Industrialists”,
+            “Architect of the Year”, “Young Entrepreneur Award” etc.
           </p>
         </div>
       </div>
