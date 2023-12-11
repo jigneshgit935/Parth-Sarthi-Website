@@ -51,14 +51,14 @@ const Submenu = () => {
         </Link>
         <ul className="nav-list">
           <li>
-            <Link href="#" className="">
+            <a href="#" className="">
               Our Story
-            </Link>
+            </a>
             <ul className="sub-menu">
               <li>
-                <Link href="#" className="">
+                <a href="#" className="">
                   About Us
-                </Link>
+                </a>
                 <ul className="sub-menu">
                   <li>
                     <Link onClick={handleMenuClick} href="company-overview">
